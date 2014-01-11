@@ -1,0 +1,7 @@
+plugin_name               = <b>ExternalLink</b>
+plugin_desc               = Zeigt Hinweistext an, bevor auf externe Seite weitergeleitet wird.<br /><br /><span style=\"font-weight:bold;\">Nutzung:</span><br />{ExternalLink|URL,[Parameter]} URL ist die URL der externen Seite. Parameter können sein:<ul><li><b>name</b> - wird als Linktext angezeigt,</li><li><b>site</b> - wird anstelle der Hinweistext Seite genommen und</li><li><b>time</b> - wird anstelle der Zeit bis zur Weiterleitung genomme.</li></ul><br/><br/><b>Beispiel:</b>{ExternalLink|http://www.black-night.org,name=black-night.org,time=500, site=@=hinweis:hinweis=@}
+plugin_ohne_param         = URL - Link auf externe Seite
+plugin_mit_param          = URL - Link auf externe Seite, weitere Parameter
+config_hint_page_select   = Seite für Hinweistext
+config_forwarding_time    = Zeit (in Millisekunden) bis zur automatischen Weiterleitung (0 für deaktiviert)
+config_number_regex_error = nur Zahlen erlaubt!
